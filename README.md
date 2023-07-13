@@ -11,11 +11,16 @@ The game is played on a grid that's 3 squares by 3 squares. You are X , the comp
 
 # Table of Contents
 
-1. [Game Features](#game-features)
-2. [Testing](#testing)
-3. [Deployment](#deployment)
-4. [Contents & Resources](#contents-&-resources)
-5. [Features Left to Implement](#features-left-to-implement)
+1. [Game Flow Chart](#game-flow-chart)
+2. [Game Features](#game-features)
+3. [Testing](#testing)
+4. [Deployment](#deployment)
+5. [Contents & Resources](#contents-&-resources)
+6. [Features Left to Implement](#features-left-to-implement)
+
+# Game Flow Chart
+
+![image](https://github.com/Rafz9Abz9/tictactoe/assets/126483536/21eadeab-6852-4534-ab01-00894dd20d1c)
 
 # Game Features
 

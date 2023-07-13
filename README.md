@@ -7,9 +7,9 @@
 
 # How Does The Game Work
 
-# Table of Contents
+The game is played on a grid that's 3 squares by 3 squares. You are X , the computer is O (or user is O and computer is X). Players take turns putting their marks in empty squares. The first player to get 3 of their marks in a row (up, down, across, or diagonally) is the winner.
 
-# User Stories
+# Table of Contents
 
 # Game Features
 
@@ -63,11 +63,76 @@
 
 ## Manual Testing
 
+![image](https://github.com/Rafz9Abz9/tictactoe/assets/126483536/1ebc9206-d5ae-44d9-9083-bced942eee7d)
+
+![image](https://github.com/Rafz9Abz9/tictactoe/assets/126483536/acfc8111-ed9a-4c9d-95e2-a361cc136e84)
+
 ## Pep8 Checker Tool
 
 ### Initial Result of Pep8 Checker
 
+![image](https://github.com/Rafz9Abz9/tictactoe/assets/126483536/38259355-0f32-47d3-b832-cd003b88f0eb)
+
+![image](https://github.com/Rafz9Abz9/tictactoe/assets/126483536/10778a92-6712-41e4-ac7b-cddace40b37d)
+
 ### Results of Pep8 Checker After Fixing Errors
+
+![image](https://github.com/Rafz9Abz9/tictactoe/assets/126483536/34107ae9-0d7c-4b28-8174-26d0cde06835)
+
+# Deployment
+
+Project was deployed using a template from Code Institute. Steps include:
+- Use template of Code Institute's Love Sandwich Project on GitHub
+-	Log in on Heroku.com.
+-	Click on “new” and create a new app.
+-	Name your application and choose your region.
+-	Click on “Create app”.
+-	Click on “Settings” and click on “Reveal Config Vars” button.
+-	In the “Key” section, type in “PORT”.
+-	In the “VALUE” section, type in “8000”.
+-	Click on the “Add” button.
+-	Scroll down to the “Buildpacks” section and click on the button “Add buildpack”.
+-	Firstly, select “python”, then click on “Add Buildpack” to save your selection.
+-	Secondly, select “node.js”, then click on “Add Buildpack” to save your selection.
+-	Once the buildpack has been added, Python should be on top of Node.js. 
+-	Move on to the “Deploy” section and choose the method you want.
+-	To connect with GitHub, select GitHub and confirm your selection.
+-	Search for your repository and click on “connect”. You can click on automatic deploy by enabling it or you can click on the manual deployment.
+-	Click on "Open app" button to view your app.
+
+# Contents & Resources
+
+## Code Institute
+
+- Followed the steps according to what is provided for project 3.
+
+## Heroku 
+
+- Used for deployment and hosting of project
+- Creating game app
+
+## YouTube
+
+- To learn more about python in general so as to have a better understanding of the language.
+- To get inspiration about project ideas using python.
+
+## Python
+
+- To create the application
+
+## GitHub
+
+- To store the code
+
+## Codeanywhere
+
+- IDE for creating application
+
+# Features Left to Implement
+
+- Feature to allow user to play with another user rather than just the computer.
+
+
 
 
 

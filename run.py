@@ -43,7 +43,9 @@ def check_winner(board):
         ['7', '5', '3'], ['9', '5', '1']  # diagonals
     ]
     for combination in winning_combinations:
-        if board[combination[0]] == board[combination[1]] == board[combination[2]] != " ":
+        if board[combination[0]] \
+             == board[combination[1]] \
+             == board[combination[2]] != " ":
             return True, board[combination[0]]
     return False, ""
 
@@ -56,7 +58,8 @@ def get_available_spots():
 # Player's turn
 def player_turn(player_symbol):
     while True:
-        position = input(f"Player's ({player_symbol}) turn. Choose a spot (1-9): ")
+        position = input(f"Player's ({player_symbol}) turn. \
+            Choose a spot (1-9): ")
         if position not in board.keys():
             print("Invalid spot! Choose another spot (1-9).")
             continue
@@ -106,7 +109,8 @@ def play_game():
 
         current_player = (current_player + 1) % 2
 
-    play_again = input("Press 'Y' if you would like to play again or 'N' to exit: ").lower()
+    play_again = input("Press 'Y' if you would like to \
+        play again or 'N' to exit: ").lower()
     if play_again == "y":
         reset_board()
         play_game()
@@ -124,4 +128,3 @@ def reset_board():
 
 # Play the game
 play_game()
-

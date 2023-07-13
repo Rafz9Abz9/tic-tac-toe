@@ -11,6 +11,8 @@ The game is played on a grid that's 3 squares by 3 squares. You are X , the comp
 
 # Table of Contents
 
+1. [Game Features](#game-features)
+
 # Game Features
 
 ## Welcome Message
@@ -56,8 +58,6 @@ The game is played on a grid that's 3 squares by 3 squares. You are X , the comp
 ## What Happens When User Selects 'N'
 
 ![image](https://github.com/Rafz9Abz9/tictactoe/assets/126483536/4d43ae0c-1037-4234-b002-638eb50a5efc)
-
-# Technologies Used
 
 # Testing
 

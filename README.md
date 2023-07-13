@@ -12,6 +12,12 @@ The game is played on a grid that's 3 squares by 3 squares. You are X , the comp
 # Table of Contents
 
 1. [Game Features](#game-features)
+2. [Testing](#testing)
+3. [Testing](##manual-testing)
+4. [Testing](##pep8-checker-tool)
+5. [Deployment](#deployment)
+6. [Contents & Resources](#contents-&-resources)
+7. [Features Left to Implement](#features-left-to-implement)
 
 # Game Features
 

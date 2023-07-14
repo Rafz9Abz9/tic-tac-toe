@@ -76,6 +76,34 @@ The game is played on a grid that's 3 squares by 3 squares. You are X , the comp
 
 ![image](https://github.com/Rafz9Abz9/tictactoe/assets/126483536/acfc8111-ed9a-4c9d-95e2-a361cc136e84)
 
+## Errors Found 
+
+- User prompted to press enter to continue but if user selects any key besides'enter' key, the game still continues:
+
+![image](https://github.com/Rafz9Abz9/tictactoe/assets/126483536/326a6fd4-9273-4dd7-8721-c1ec02a942a1)
+
+- When user is asked to choose X or O, if user chooses any key besides X or O, game still continues:
+
+![image](https://github.com/Rafz9Abz9/tictactoe/assets/126483536/6a58d0e1-918c-4095-911f-325faeb7b42c)
+
+- User is asked to choose 'N' to exit, but if user selects any key besides 'N', game still ends:
+
+![image](https://github.com/Rafz9Abz9/tictactoe/assets/126483536/df4df4a8-b757-40e5-a65b-190221ab0d1f)
+
+### After Fixing the Errors Found
+
+- User asked to press any key to continue:
+
+![image](https://github.com/Rafz9Abz9/tictactoe/assets/126483536/8808c2db-18ba-4c8d-988e-8d8d7f607bc1)
+
+- User asked to choose X or O, if user selects any key besides X or O, a message saying "Invalid key. Choose X or O" is displayed:
+
+![image](https://github.com/Rafz9Abz9/tictactoe/assets/126483536/98bc045c-258e-43bb-b1f2-d7ed76134f4e)
+
+- User is askd to press any key to exit the game:
+
+![image](https://github.com/Rafz9Abz9/tictactoe/assets/126483536/db00785d-dd79-4346-9324-8433f62559c6)
+
 ## Pep8 Checker Tool
 
 ### Initial Result of Pep8 Checker

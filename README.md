@@ -100,7 +100,7 @@ The game is played on a grid that's 3 squares by 3 squares. You are X , the comp
 
 ![image](https://github.com/Rafz9Abz9/tictactoe/assets/126483536/98bc045c-258e-43bb-b1f2-d7ed76134f4e)
 
-- User is askd to press any key to exit the game:
+- User is asked to press any key to exit the game:
 
 ![image](https://github.com/Rafz9Abz9/tictactoe/assets/126483536/db00785d-dd79-4346-9324-8433f62559c6)
 

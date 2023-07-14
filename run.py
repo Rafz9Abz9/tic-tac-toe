@@ -4,7 +4,7 @@ import random
 # Introduction to the game
 def begin():
     print("Welcome user! Are you excited to play Tic Tac Toe?")
-    input("Press enter to continue.")
+    input("Press any key to continue.")
 
 
 # Create board
@@ -24,10 +24,14 @@ def print_board():
 
 # Defining players
 def choose_symbols():
-    p_one = input("Player 1, choose X or O: ").upper()
-    p_two = 'O' if p_one == 'X' else 'X'
-    print(f"Player 2, you are {p_two}")
-    return (p_one, p_two)
+    while True:
+        p_one = input("Player 1, choose X or O: ").upper()
+        if p_one not in ['X', 'O']:
+            print("Invalid key. Choose X or O.")
+            continue
+        p_two = 'O' if p_one == 'X' else 'X'
+        print(f"Player 2, you are {p_two}")
+        return (p_one, p_two)
 
 
 # Check if the board is full
@@ -44,8 +48,8 @@ def check_winner(board):
     ]
     for combination in winning_combinations:
         if board[combination[0]] \
-             == board[combination[1]] \
-             == board[combination[2]] != " ":
+                == board[combination[1]] \
+                == board[combination[2]] != " ":
             return True, board[combination[0]]
     return False, ""
 
@@ -110,7 +114,7 @@ def play_game():
         current_player = (current_player + 1) % 2
 
     play_again = input("Press 'Y' if you would like to \
-        play again or 'N' to exit: ").lower()
+        play again or any key to exit: ").lower()
     if play_again == "y":
         reset_board()
         play_game()

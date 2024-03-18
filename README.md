@@ -1,4 +1,8 @@
 # Tic Tac Toe
+
+![image](https://github.com/Rafz9Abz9/Tic-Tac-Toe/assets/126483536/679ef879-5304-4808-9bd6-2824f82cd2ed)
+
+
 ![image](https://github.com/Rafz9Abz9/tictactoe/assets/126483536/46fa2a79-caa5-4cb1-bf45-229a531b119e)
 
 [Live Link](https://tic-tac--toe-2576c0b082a6.herokuapp.com/)
